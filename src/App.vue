@@ -5,5 +5,7 @@
 </template>
 
 <style lang="css">
-
+body {
+  background-color: #FAFAFA;
+}
 </style>
