@@ -10,7 +10,7 @@
     </div>
     <div class="carte_contenu">
       <h1>Vous avez un projet ?</h1>
-      <p>Parlez moi de votre projet et obtenez une réponse dans les plus brefs délais.</p>
+      <p>Parlez-moi de votre projet et obtenez une réponse dans les plus brefs délais.</p>
       <router-link to="/contact">Entrons en contact</router-link>
     </div>
   </div>
@@ -161,6 +161,9 @@ export default {
       border-radius: 9px;
       @media screen and (min-width: 800px) {
         padding: 10px 29px;
+        &:hover {
+          background-color: #26393D;
+        }
       }
       @media screen and (min-width: 1400px) {
         font-size: 20px;

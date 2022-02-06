@@ -144,6 +144,25 @@ header {
           @media screen and (min-width: 800px) {
             margin-left: 63px;
             margin-right: 50px;
+            a {
+              &:after {
+                background: none repeat scroll 0 0 transparent;
+                bottom: initial;
+                display: initial;
+                height: initial;
+                left: initial;
+                position: initial;
+                background: transparent;
+                transition: none;
+                width: initial;
+              }
+              &:hover {
+                &:after {
+                  width: initial;
+                  left: initial;
+                }
+              }
+            }
           }
           @media screen and (min-width: 1400px) {
             margin-left: 100px;
@@ -174,6 +193,27 @@ header {
               background-color: #4E686D;
               padding: 1.5px 19px;
               border-radius: 9px;
+              &:hover {
+                background-color: #26393D;
+                font-weight: initial;
+              }
+              &:after {
+                background: none repeat scroll 0 0 transparent;
+                bottom: initial;
+                display: initial;
+                height: initial;
+                left: initial;
+                position: initial;
+                background: transparent;
+                transition: none;
+                width: initial;
+              }
+              &:hover {
+                &:after {
+                  width: initial;
+                  left: initial;
+                }
+              }
             }
             @media screen and (min-width: 1400px) {
               padding: 3px 22px;
@@ -196,6 +236,29 @@ header {
               font-family: "Mukta ExtraLight", sans-serif;
               @media screen and (min-width: 800px) {
                 font-size: 15px;
+                &:hover {
+                  font-weight: bold;
+                  &:after {
+                    font-weight: initial;
+                  }
+                }
+                &:after {
+                  background: none repeat scroll 0 0 transparent;
+                  bottom: initial;
+                  display: initial;
+                  height: initial;
+                  left: initial;
+                  position: initial;
+                  background: transparent;
+                  transition: none;
+                  width: initial;
+                }
+                &:hover {
+                  &:after {
+                    width: initial;
+                    left: initial;
+                  }
+                }
               }
               @media screen and (min-width: 1400px) {
                 font-size: 20px;
@@ -215,6 +278,27 @@ header {
           font-family: "Mukta Light", sans-serif;
           text-decoration: none;
           white-space: nowrap;
+          position: relative;
+          @media screen and (min-width: 800px) {
+            &:after {
+              background: none repeat scroll 0 0 transparent;
+              bottom: 0;
+              content: "";
+              display: block;
+              height: 2px;
+              left: 50%;
+              position: absolute;
+              background: #4E686D;
+              transition: width 0.3s ease 0s, left 0.3s ease 0s;
+              width: 0;
+            }
+            &:hover {
+              &:after {
+                width: 100%;
+                left: 0;
+              }
+            }
+          }
           img {
             width: auto;
             height: 4.625rem;
