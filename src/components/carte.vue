@@ -27,16 +27,16 @@ export default {
   background-color: #B57243;
   border-radius: 30px;
   text-align: center;
-  margin: 13px;
+  margin: 21px;
   padding-bottom: 38.5px;
   position: relative;
   @media screen and (min-width: 800px) {
-    margin: 13px 161px;
+    margin: 13px 169px;
     text-align: left;
     padding-bottom: 40px;
   }
-  @media screen and (min-width: 1400px) {
-    margin: 13px 302px;
+  @media screen and (min-width: 1600px) {
+    margin: 13px 310px;
     padding-bottom: 77px;
   }
   .carte_fond {
@@ -53,7 +53,7 @@ export default {
           height: auto;
           z-index: 6;
         }
-        @media screen and (min-width: 1400px) {
+        @media screen and (min-width: 1600px) {
           top: 45px;
           right: 25.5px;
           width: 258px;
@@ -77,7 +77,7 @@ export default {
           height: 100%;
           z-index: 4;
         }
-        @media screen and (min-width: 1400px) {
+        @media screen and (min-width: 1600px) {
           right: 303.5px;
         }
       }
@@ -85,7 +85,7 @@ export default {
         right: 0;
         bottom: 0;
         display: none;
-        @media screen and (min-width: 1400px) {
+        @media screen and (min-width: 1600px) {
           display: initial;
           z-index: 3;
         }
@@ -117,7 +117,7 @@ export default {
     @media screen and (min-width: 800px) {
       margin-left: 40px;
     }
-    @media screen and (min-width: 1400px) {
+    @media screen and (min-width: 1600px) {
       margin-left: 42px;
     }
     h1 {
@@ -132,7 +132,7 @@ export default {
         margin: 0;
         padding-top: 36px;
       }
-      @media screen and (min-width: 1400px) {
+      @media screen and (min-width: 1600px) {
         font-size: 60px;
         padding-top: 57px;
       }
@@ -146,7 +146,7 @@ export default {
         margin: 0 0 31px;
         width: 45%;
       }
-      @media screen and (min-width: 1400px) {
+      @media screen and (min-width: 1600px) {
         font-size: 20px;
         margin: 0 0 39px;
       }
@@ -164,8 +164,11 @@ export default {
         &:hover {
           background-color: #26393D;
         }
+        &:active {
+          background-color: #63888F;
+        }
       }
-      @media screen and (min-width: 1400px) {
+      @media screen and (min-width: 1600px) {
         font-size: 20px;
         padding: 12px 31.5px;
       }

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="162" height="34" viewBox="0 0 162 34">
+  <g id="Groupe_69" data-name="Groupe 69" transform="translate(-26 -797)">
+    <rect id="Rectangle_153" data-name="Rectangle 153" width="162" height="34" rx="17" transform="translate(26 797)" fill="#fff"/>
+    <g id="Groupe_66" data-name="Groupe 66">
+      <ellipse id="Ellipse_33" data-name="Ellipse 33" cx="13.5" cy="14" rx="13.5" ry="14" transform="translate(30 800)" fill="#cfa7a8"/>
+      <path id="code-solid" d="M9.961,18.348l-2.184-.634a.43.43,0,0,1-.294-.533L12.37.347A.43.43,0,0,1,12.9.054l2.184.634a.43.43,0,0,1,.294.533L10.494,18.055A.429.429,0,0,1,9.961,18.348ZM5.88,14.331,7.437,12.67a.43.43,0,0,0-.029-.616L4.165,9.2,7.408,6.348a.427.427,0,0,0,.029-.616L5.88,4.071a.43.43,0,0,0-.609-.018L.112,8.886a.427.427,0,0,0,0,.627l5.159,4.837a.427.427,0,0,0,.609-.018Zm11.714.021,5.159-4.837a.427.427,0,0,0,0-.627l-5.159-4.84a.434.434,0,0,0-.609.018L15.428,5.728a.43.43,0,0,0,.029.616L18.7,9.2l-3.244,2.853a.427.427,0,0,0-.029.616l1.557,1.661a.43.43,0,0,0,.609.021Z" transform="translate(32.274 805.021)" fill="#fff"/>
+    </g>
+    <line id="Ligne_24" data-name="Ligne 24" x2="10.416" transform="translate(64.799 814.223)" fill="none" stroke="#000" stroke-width="1"/>
+    <text id="Dev_Front_End" data-name="Dev Front End" transform="translate(83 803)" fill="#333" font-size="13" font-family="Mukta-Regular, Mukta"><tspan x="0" y="15">Dev Front End</tspan></text>
+  </g>
+</svg>

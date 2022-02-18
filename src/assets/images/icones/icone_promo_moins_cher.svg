@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="35" viewBox="0 0 40 35">
+  <g id="Groupe_10" data-name="Groupe 10" transform="translate(-313.225 -2867.766)">
+    <rect id="Rectangle_60" data-name="Rectangle 60" width="7.589" height="6.421" transform="translate(341.669 2885.983)" fill="#b89558"/>
+    <path id="wallet-solid" d="M36.031,39.5H6.25a1.25,1.25,0,1,1,0-2.5h30a1.25,1.25,0,0,0,1.25-1.25A3.75,3.75,0,0,0,33.75,32H5a5,5,0,0,0-5,5V62a5,5,0,0,0,5,5H36.031A3.868,3.868,0,0,0,40,63.25v-20A3.868,3.868,0,0,0,36.031,39.5ZM32.5,55.75a2.5,2.5,0,1,1,2.5-2.5A2.5,2.5,0,0,1,32.5,55.75Z" transform="translate(313.225 2835.766)" fill="#4e686d"/>
+  </g>
+</svg>

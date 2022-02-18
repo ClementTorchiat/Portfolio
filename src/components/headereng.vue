@@ -31,8 +31,8 @@
         <li><router-link to="/"><img src="@/assets/images/icones/logo_clement_torchiat.svg" alt="Clément Torchiat"></router-link></li>
         <li><router-link to="portfolio">Portfolio</router-link></li>
         <li><router-link to="services">Services</router-link></li>
-        <li><router-link to="a_propos">À propos</router-link></li>
-        <li><router-link to="avis">Avis</router-link></li>
+        <li><router-link to="informations">About</router-link></li>
+        <li><router-link to="avis">Testimonials</router-link></li>
         <li><router-link to="contact">Contact</router-link></li>
         <li>
           <div class="langue">
@@ -47,7 +47,7 @@
 
 <script>
 export default {
-  name: "heading"
+  name: "headingeng"
 }
 </script>
 
@@ -112,7 +112,7 @@ header {
       position: initial;
       width: 55%;
     }
-    @media screen and (min-width: 1600px) {
+    @media screen and (min-width: 1400px) {
       width: 48%;
     }
     ul {
@@ -128,23 +128,23 @@ header {
         margin-top: 28px;
         align-items: center;
       }
-      @media screen and (min-width: 1600px) {
+      @media screen and (min-width: 1400px) {
         font-size: 20px;
         margin-top: 45px;
       }
       li {
         margin-bottom: 40px;
         @media screen and (min-width: 800px) {
-          margin-right: 2.4vw;
+          margin-right: 30px;
           margin-bottom: 0;
         }
-        @media screen and (min-width: 1600px) {
-          margin-right: 2vw;
+        @media screen and (min-width: 1400px) {
+          margin-right: 36px;
         }
         &:first-child {
           @media screen and (min-width: 800px) {
-            margin-left: 5vw;
-            margin-right: 4vw;
+            margin-left: 63px;
+            margin-right: 50px;
             a {
               &:after {
                 background: none repeat scroll 0 0 transparent;
@@ -165,12 +165,9 @@ header {
               }
             }
           }
-          @media screen and (min-width: 1600px) {
-            margin-left: 3vw;
-            margin-right: 3vw;
-          }
-          @media screen and (min-width: 1800px) {
-            margin-left: 6vw;
+          @media screen and (min-width: 1400px) {
+            margin-left: 100px;
+            margin-right: 58px;
           }
         }
         &:nth-child(5){
@@ -222,7 +219,7 @@ header {
                 }
               }
             }
-            @media screen and (min-width: 1600px) {
+            @media screen and (min-width: 1400px) {
               padding: 3px 22px;
             }
           }
@@ -267,7 +264,7 @@ header {
                   }
                 }
               }
-              @media screen and (min-width: 1600px) {
+              @media screen and (min-width: 1400px) {
                 font-size: 20px;
               }
               &:first-child {
@@ -316,7 +313,7 @@ header {
               width: 67.8px;
               height: auto;
             }
-            @media screen and (min-width: 1600px) {
+            @media screen and (min-width: 1400px) {
               width: auto;
               height: 79px;
             }

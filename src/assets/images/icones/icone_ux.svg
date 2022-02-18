@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="162" height="34" viewBox="0 0 162 34">
+  <g id="Groupe_68" data-name="Groupe 68" transform="translate(-26 -746)">
+    <rect id="Rectangle_152" data-name="Rectangle 152" width="162" height="34" rx="17" transform="translate(26 746)" fill="#fff"/>
+    <g id="Groupe_65" data-name="Groupe 65">
+      <ellipse id="Ellipse_32" data-name="Ellipse 32" cx="13.5" cy="14" rx="13.5" ry="14" transform="translate(30 749)" fill="#cfa7a8"/>
+      <path id="pen-solid" d="M10.34,3.327,14.9,7.884,5,17.78l-4.063.449a.855.855,0,0,1-.943-.944l.452-4.066Zm7.376-.679L15.576.508a1.71,1.71,0,0,0-2.418,0L11.145,2.521,15.7,7.079l2.013-2.013a1.71,1.71,0,0,0,0-2.418Z" transform="translate(34.604 753.805)" fill="#fff"/>
+    </g>
+    <line id="Ligne_23" data-name="Ligne 23" x2="10.416" transform="translate(64.799 763.186)" fill="none" stroke="#000" stroke-width="1"/>
+    <text id="UX_UI_Designer" data-name="UX/UI Designer" transform="translate(83 752)" fill="#333" font-size="13" font-family="Mukta-Regular, Mukta"><tspan x="0" y="15">UX/UI Designer</tspan></text>
+  </g>
+</svg>

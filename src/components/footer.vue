@@ -45,7 +45,7 @@ footer {
     display: flex;
     margin: 126px 173.5px 90px;
   }
-  @media screen and (min-width: 1400px) {
+  @media screen and (min-width: 1600px) {
     margin: 149.2px 213px 119px;
   }
   a {
@@ -58,7 +58,7 @@ footer {
         width: 69.7px;
         height: auto;
       }
-      @media screen and (min-width: 1400px) {
+      @media screen and (min-width: 1600px) {
         width: auto;
         height: 79px;
       }
@@ -80,7 +80,7 @@ footer {
         @media screen and (min-width: 800px) {
           margin-bottom: 8px;
         }
-        @media screen and (min-width: 1400px) {
+        @media screen and (min-width: 1600px) {
           margin-bottom: 22px;
         }
         h4 {
@@ -91,7 +91,7 @@ footer {
           @media screen and (min-width: 800px) {
             font-size: 18px;
           }
-          @media screen and (min-width: 1400px) {
+          @media screen and (min-width: 1600px) {
             font-size: 22px;
           }
         }
@@ -102,11 +102,13 @@ footer {
           color: black;
           @media screen and (min-width: 800px) {
             &:hover {
-              color: #26393D;
+              text-decoration: underline;
+            }
+            &:active {
               font-weight: bold;
             }
           }
-          @media screen and (min-width: 1400px) {
+          @media screen and (min-width: 1600px) {
             font-size: 20px;
           }
         }
@@ -126,7 +128,7 @@ footer {
       @media screen and (min-width: 800px) {
         font-size: 18px;
       }
-      @media screen and (min-width: 1400px) {
+      @media screen and (min-width: 1600px) {
         font-size: 22px;
       }
     }
@@ -135,7 +137,7 @@ footer {
       @media screen and (min-width: 800px) {
         margin-top: 9.4px;
       }
-      @media screen and (min-width: 1400px) {
+      @media screen and (min-width: 1600px) {
         margin-top: 26px;
       }
       a {
@@ -143,14 +145,14 @@ footer {
         @media screen and (min-width: 800px) {
           margin: 0 14.3px 0 0;
         }
-        @media screen and (min-width: 1400px) {
+        @media screen and (min-width: 1600px) {
           margin: 0 22.8px 0 0;
         }
         &:first-child {
           img {
             width: 16.5px;
             height: auto;
-            @media screen and (min-width: 1400px) {
+            @media screen and (min-width: 1600px) {
               width: 26.16px;
             }
           }
@@ -159,7 +161,7 @@ footer {
           img {
             width: 23px;
             height: auto;
-            @media screen and (min-width: 1400px) {
+            @media screen and (min-width: 1600px) {
               width: 36.6px;
             }
           }
@@ -168,7 +170,7 @@ footer {
           img {
             width: 14.5px;
             height: auto;
-            @media screen and (min-width: 1400px) {
+            @media screen and (min-width: 1600px) {
               width: 23.1px;
             }
           }
@@ -177,7 +179,7 @@ footer {
           img {
             width: 14.5px;
             height: auto;
-            @media screen and (min-width: 1400px) {
+            @media screen and (min-width: 1600px) {
               width: 24px;
             }
           }
@@ -198,7 +200,7 @@ footer {
       @media screen and (min-width: 800px) {
         font-size: 18px;
       }
-      @media screen and (min-width: 1400px) {
+      @media screen and (min-width: 1600px) {
         font-size: 22px;
       }
     }
@@ -209,7 +211,7 @@ footer {
       @media screen and (min-width: 800px) {
         margin: 7px 0 0;
       }
-      @media screen and (min-width: 1400px) {
+      @media screen and (min-width: 1600px) {
         font-size: 20px;
         margin: 22px 0 0;
       }
