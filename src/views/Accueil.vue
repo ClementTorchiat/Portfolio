@@ -484,10 +484,10 @@ main {
           }
           @media screen and (min-width: 800px) {
             &:hover {
-              font-weight: bold;
+              text-decoration: underline;
             }
             &:active {
-              color: #26393D;
+              font-weight: bold;
             }
           }
           @media screen and (min-width: 1600px) {

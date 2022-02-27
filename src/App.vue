@@ -3,7 +3,7 @@
     <heading v-if="![''].includes($route.name)"></heading>
     <headingeng v-if="!['Accueil', 'Portfolio', 'Services', 'Avis', 'Informations', 'Contact'].includes($route.name)"></headingeng>
     <router-view/>
-    <carte v-if="!['Portfolio', 'Contact'].includes($route.name)"></carte>
+    <carte v-if="!['Contact'].includes($route.name)"></carte>
     <footing v-if="![''].includes($route.name)"></footing>
   </div>
 </template>
