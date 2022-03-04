@@ -12,7 +12,7 @@
       <div class="texte_a_propos">
         <p>- Résumé</p>
         <h2>Mon objectif : votre succès</h2>
-        <p>Je suis actuellement un étudiant en DUT MMI à Montbéliard, formation à travers laquelle j'apprend à créer des identités visuelles, des interfaces graphiques, des maquettes de sites, des sites internet complets et bien plus encore.<br><br>
+        <p>Je suis actuellement un étudiant en DUT MMI à Montbéliard, formation à travers laquelle j'apprends à créer des identités visuelles, des interfaces graphiques, des maquettes de sites, des sites internet complets et bien plus encore.<br><br>
 
           Mon objectif est d'apporter des solutions efficaces et concrètes à vos problèmes. Nous travaillerons ensemble afin de trouver un design et un site qui vous correspondent.<br><br>
 

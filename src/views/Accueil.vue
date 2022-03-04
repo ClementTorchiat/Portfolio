@@ -332,7 +332,7 @@ main {
           width: 267px;
           height: auto;
           @media screen and (min-width: 800px) {
-            width: 36vw;
+            width: 28vw;
           }
           @media screen and (min-width: 1600px) {
             width: auto;
