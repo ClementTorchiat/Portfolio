@@ -1,8 +1,8 @@
 <template>
   <main>
     <div id="avis">
-      <h1>Avis des clients</h1>
-      <p>Voici une petite liste des avis de différents clients à qui j'ai proposé mes services.</p>
+      <h1>Testimonials</h1>
+      <p>Here is a small list of testimonials from different clients to whom I have offered my services.</p>
       <div class="avis-container" v-for="avis in liste_avis" :key="avis.id">
         <img class="image-avis" :src="avis.acf.image" alt="">
         <div class="contenu-textuel-avis">
@@ -30,7 +30,7 @@ import axios from "axios";
 import param from "@/param/param.js";
 
 export default {
-  name: "Avis",
+  name: "Testimonials",
   data() {
     return {
       liste_avis: [],

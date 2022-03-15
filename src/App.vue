@@ -1,10 +1,12 @@
 <template>
   <div id="app">
-    <heading v-if="![''].includes($route.name)"></heading>
-    <headingeng v-if="!['Accueil', 'Portfolio', 'Services', 'Avis', 'Informations', 'Contact'].includes($route.name)"></headingeng>
+    <heading v-if="!['Home', 'Portfolioeng', 'Serviceseng', 'Testimonials', 'About', 'Get-in-touch', 'Project'].includes($route.name)"></heading>
+    <headingeng v-if="!['Accueil', 'Portfolio', 'Services', 'Avis', 'Informations', 'Contact', 'Projet'].includes($route.name)"></headingeng>
     <router-view/>
-    <carte v-if="!['Contact'].includes($route.name)"></carte>
-    <footing v-if="![''].includes($route.name)"></footing>
+    <carte v-if="!['Contact', 'Home', 'Portfolioeng', 'Serviceseng', 'Testimonials', 'About', 'Get-in-touch', 'Project'].includes($route.name)"></carte>
+    <carteeng v-if="!['Get-in-touch', 'Accueil', 'Portfolio', 'Services', 'Avis', 'Informations', 'Contact', 'Projet'].includes($route.name)"></carteeng>
+    <footing v-if="!['Home', 'Portfolioeng', 'Serviceseng', 'Testimonials', 'About', 'Get-in-touch', 'Project'].includes($route.name)"></footing>
+    <footingeng v-if="!['Accueil', 'Portfolio', 'Services', 'Avis', 'Informations', 'Contact', 'Projet'].includes($route.name)"></footingeng>
   </div>
 </template>
 
@@ -18,7 +20,9 @@ import Heading from "@/components/header";
 import Headingeng from "@/components/headereng";
 import Footing from "@/components/footer";
 import Carte from "@/components/carte";
+import Carteeng from "@/components/carteeng";
+import Footingeng from "@/components/footereng";
 export default {
-  components: {Carte, Footing, Headingeng, Heading}
+  components: {Footingeng, Carteeng, Carte, Footing, Headingeng, Heading}
 }
 </script>

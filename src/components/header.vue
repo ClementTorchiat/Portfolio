@@ -29,15 +29,15 @@
     <nav class="menu">
       <ul>
         <li><router-link to="/"><img src="@/assets/images/icones/logo_clement_torchiat.svg" alt="Clément Torchiat"></router-link></li>
-        <li><router-link to="portfolio">Portfolio</router-link></li>
-        <li><router-link to="services">Services</router-link></li>
-        <li><router-link to="a_propos">À propos</router-link></li>
-        <li><router-link to="avis">Avis</router-link></li>
-        <li><router-link to="contact">Contact</router-link></li>
+        <li><router-link to="/portfolio">Portfolio</router-link></li>
+        <li><router-link to="/services">Services</router-link></li>
+        <li><router-link to="/a_propos">À propos</router-link></li>
+        <li><router-link to="/avis">Avis</router-link></li>
+        <li><router-link to="/contact">Contact</router-link></li>
         <li>
           <div class="langue">
             <router-link to="/">FR</router-link>
-            <router-link to="/">ENG</router-link>
+            <router-link to="/eng">ENG</router-link>
           </div>
         </li>
       </ul>

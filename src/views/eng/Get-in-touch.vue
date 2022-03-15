@@ -1,13 +1,13 @@
 <template>
   <main>
     <div id="contact">
-      <h1>Hey ! Je vous attendais</h1>
+      <h1>Hey ! I was expecting you</h1>
       <form ref="form" @submit.prevent="envoyerEmail" class="formulaire" data-name="Formulaire" method="get" aria-label="Formulaire">
-        <input v-model="Nom"  class="contact-nom" type="text" maxlength="256" name="nom" data-name="Nom" placeholder="Comment vous appelez vous ?" required>
-        <input v-model="Mail" class="contact-email" type="email" maxlength="256" name="email" data-name="Email" placeholder="Votre email" required>
-        <input v-model="Budget" class="contact-budget" type="text" maxlength="256" name="budget" data-name="Budget" placeholder="Votre budget" required>
-        <textarea v-model="Message" class="contact-description" name="description" data-name="Description" placeholder="Parlez moi de votre projet (ou insérez un lien vers une maquette déjà existante)"></textarea>
-        <button class="contact-bouton" type="submit" value="Envoyer" data-wait="Veuillez patienter..."></button>
+        <input class="contact-nom" type="text" maxlength="256" name="nom" data-name="nom" placeholder="What’s your name ?" required>
+        <input class="contact-email" type="email" maxlength="256" name="email" data-name="email" placeholder="Your email" required>
+        <input class="contact-budget" type="text" maxlength="256" name="budget" data-name="budget" placeholder="Your budget" required>
+        <textarea class="contact-description" name="description" data-name="Description" placeholder="Tell me about your project (or insert a link to an existing mock-up)"></textarea>
+        <button class="contact-bouton" type="submit" value="Send" data-wait="Veuillez patienter...">Send</button>
       </form>
     </div>
   </main>
@@ -17,7 +17,7 @@
 import emailjs from "@emailjs/browser";
 
 export default {
-  name: "Contact",
+  name: "Get-in-touch",
   methods:{
     envoyerEmail () {
       emailjs.sendForm('service_lbw4llt', 'template_jgq0r8n', this.$refs.form, 'o12gp0uyybtdIVXy6')
@@ -190,7 +190,7 @@ main {
           }
         }
         @media screen and (min-width: 1600px) {
-          padding: 14px 524px;
+          padding: 14px 538px;
         }
       }
     }

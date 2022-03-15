@@ -28,16 +28,16 @@
     </div>
     <nav class="menu">
       <ul>
-        <li><router-link to="/"><img src="@/assets/images/icones/logo_clement_torchiat.svg" alt="Clément Torchiat"></router-link></li>
-        <li><router-link to="portfolio">Portfolio</router-link></li>
-        <li><router-link to="services">Services</router-link></li>
-        <li><router-link to="informations">About</router-link></li>
-        <li><router-link to="avis">Testimonials</router-link></li>
-        <li><router-link to="contact">Contact</router-link></li>
+        <li><router-link to="/eng"><img src="@/assets/images/icones/logo_clement_torchiat.svg" alt="Clément Torchiat"></router-link></li>
+        <li><router-link to="/eng/portfolio">Portfolio</router-link></li>
+        <li><router-link to="/eng/services">Services</router-link></li>
+        <li><router-link to="/eng/about">About</router-link></li>
+        <li><router-link to="/eng/testimonials">Testimonials</router-link></li>
+        <li><router-link to="/eng/get-in-touch">Get in touch</router-link></li>
         <li>
           <div class="langue">
             <router-link to="/">FR</router-link>
-            <router-link to="/">ENG</router-link>
+            <router-link to="/eng">ENG</router-link>
           </div>
         </li>
       </ul>
@@ -47,7 +47,7 @@
 
 <script>
 export default {
-  name: "headingeng"
+  name: "heading"
 }
 </script>
 
@@ -112,7 +112,7 @@ header {
       position: initial;
       width: 55%;
     }
-    @media screen and (min-width: 1400px) {
+    @media screen and (min-width: 1600px) {
       width: 48%;
     }
     ul {
@@ -128,23 +128,23 @@ header {
         margin-top: 28px;
         align-items: center;
       }
-      @media screen and (min-width: 1400px) {
+      @media screen and (min-width: 1600px) {
         font-size: 20px;
         margin-top: 45px;
       }
       li {
         margin-bottom: 40px;
         @media screen and (min-width: 800px) {
-          margin-right: 30px;
+          margin-right: 2.4vw;
           margin-bottom: 0;
         }
-        @media screen and (min-width: 1400px) {
-          margin-right: 36px;
+        @media screen and (min-width: 1600px) {
+          margin-right: 2vw;
         }
         &:first-child {
           @media screen and (min-width: 800px) {
-            margin-left: 63px;
-            margin-right: 50px;
+            margin-left: 2vw;
+            margin-right: 4vw;
             a {
               &:after {
                 background: none repeat scroll 0 0 transparent;
@@ -165,9 +165,12 @@ header {
               }
             }
           }
-          @media screen and (min-width: 1400px) {
-            margin-left: 100px;
-            margin-right: 58px;
+          @media screen and (min-width: 1600px) {
+            margin-left: 3vw;
+            margin-right: 3vw;
+          }
+          @media screen and (min-width: 1800px) {
+            margin-left: 3vw;
           }
         }
         &:nth-child(5){
@@ -219,7 +222,7 @@ header {
                 }
               }
             }
-            @media screen and (min-width: 1400px) {
+            @media screen and (min-width: 1600px) {
               padding: 3px 22px;
             }
           }
@@ -264,7 +267,7 @@ header {
                   }
                 }
               }
-              @media screen and (min-width: 1400px) {
+              @media screen and (min-width: 1600px) {
                 font-size: 20px;
               }
               &:first-child {
@@ -313,7 +316,7 @@ header {
               width: 67.8px;
               height: auto;
             }
-            @media screen and (min-width: 1400px) {
+            @media screen and (min-width: 1600px) {
               width: auto;
               height: 79px;
             }

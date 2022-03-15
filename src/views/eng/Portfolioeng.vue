@@ -2,13 +2,13 @@
   <main>
     <div class="portfolio">
       <h1>Portfolio</h1>
-      <p>Une liste de mes différents projets universitaires, personnels et professionnels.</p>
+      <p>A list of my various academic, personal and professional projects.</p>
       <div id="liste-des-projets">
         <div class="derniers-projets" v-for="projet in liste_projets" :key="projet.id">
           <img class="image-projet" :src="projet.better_featured_image.source_url" alt="">
           <img class="fond-projet" src="@/assets/images/icones/projet_bord_noir.svg" alt="">
           <h4 class="titre-projet">{{projet.title.rendered}}</h4>
-          <router-link class="bouton-projet" :to="{ name:'Projet', params: {id : projet.id}}">Voir</router-link>
+          <router-link class="bouton-projet" :to="{ name:'Project', params: {id : projet.id}}">See</router-link>
         </div>
       </div>
     </div>
@@ -21,7 +21,7 @@ import param from "@/param/param";
 import axios from "axios";
 
 export default {
-  name: "Portfolio",
+  name: "Portfolioeng",
   components: {},
   data() {
     return {
@@ -33,7 +33,7 @@ export default {
       console.log("Reponse", response);
       this.liste_projets = response.data;
     })
-    .catch((error) => console.log(error));
+        .catch((error) => console.log(error));
   },
 };
 </script>

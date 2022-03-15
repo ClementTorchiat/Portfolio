@@ -1,13 +1,13 @@
 <template>
   <main>
     <div id="services">
-      <h1>De la simple idée jusqu'au produit final</h1>
-      <p>Je propose des services qui contribuent au succès de votre entreprise. Vous en ressortirez avec un design singulier et une expérience utilisateur unique.</p>
+      <h1>From a simple idea to the final product</h1>
+      <p>I offer services that contribute to the success of your business. You will end up with a singular design and a unique user experience.</p>
       <div class="services-grid">
         <div class="service-1-1">
-          <h2>Recherche d'identité visuelle</h2>
-          <p>Identifions ensemble la façon dont vous voulez être vu par vos clients. Imaginons ensemble votre logo et votre harmonie colorée. La cohérence de l'identité visuelle garantie la cohérence de votre image.</p>
-          <router-link to="/contact">Entrons en contact</router-link>
+          <h2>Visual identity and research</h2>
+          <p>Let's identify together how you want to be seen by your customers. Let's imagine your logo and your colored harmony together. The consistency of the visual identity guarantees the consistency of your image.</p>
+          <router-link to="/eng/get-in-touch">Get in touch</router-link>
         </div>
         <div class="service-1-2">
           <img src="@/assets/images/icones/services_rouge.svg" alt="">
@@ -15,9 +15,9 @@
           <img src="@/assets/images/img/services_illustration_1.png" alt="">
         </div>
         <div class="service-2-1">
-          <h2>Maquettage graphique</h2>
-          <p>Design de maquettes responsive avec une conception ergonomique et une navigation pratique qui vous correspondent. Ainsi, nous chercherons ensemble un design qui vous plaît.</p>
-          <router-link to="/contact">Entrons en contact</router-link>
+          <h2>Mock-up</h2>
+          <p>Responsive mockup with an ergonomic design and convenient navigation that suits you. Thus, we will look together for a design that you like.</p>
+          <router-link to="/eng/get-in-touch">Get in touch</router-link>
         </div>
         <div class="service-2-2">
           <img src="@/assets/images/icones/services_jaune.svg" alt="">
@@ -25,9 +25,9 @@
           <img src="@/assets/images/img/services_illustration_2.png" alt="">
         </div>
         <div class="service-3-1">
-          <h2>Intégration Front End</h2>
-          <p>Une fois que le maquettage est terminé et validé, j'intégrerai notre design en responsive. C'est une intégration front-end HTML/CSS complète pour une flexibilité accrue. Même si vous avez déjà un design, je pourrai l'intégrer.</p>
-          <router-link to="/contact">Entrons en contact</router-link>
+          <h2>Front End Integration</h2>
+          <p>Once the mockup is finished and validated, I will integrate our responsive design. It's a full HTML/CSS integration for added flexibility. Even if you already have a design, I can integrate it.</p>
+          <router-link to="/eng/get-in-touch">Get in touch</router-link>
         </div>
         <div class="service-3-2">
           <img src="@/assets/images/icones/services_rouge.svg" alt="">
@@ -41,7 +41,7 @@
 
 <script>
 export default {
-  name: "Services"
+  name: "Serviceseng"
 }
 </script>
 

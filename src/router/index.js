@@ -6,6 +6,14 @@ import Services from "@/views/Services";
 import Informations from "@/views/Informations";
 import Avis from "@/views/Avis";
 import Contact from "@/views/Contact";
+import Projet from "@/views/Projet";
+import Home from "@/views/eng/Home";
+import Portfolioeng from "@/views/eng/Portfolioeng";
+import Serviceseng from "@/views/eng/Serviceseng";
+import About from "@/views/eng/About";
+import Testimonials from "@/views/eng/Testimonials";
+import GetInTouch from "@/views/eng/Get-in-touch";
+import Project from "@/views/eng/Project";
 
 Vue.use(VueRouter)
 
@@ -56,6 +64,70 @@ const routes = [
     component: Contact,
     meta: {
       title: 'Clément Torchiat - Contact'
+    }
+  },
+  {
+    path: '/portfolio/:id',
+    name: 'Projet',
+    component: Projet,
+    meta: {
+      title: 'Clément Torchiat - Portfolio'
+    }
+  },
+  {
+    path: '/eng',
+    name: 'Home',
+    component: Home,
+    meta: {
+      title: 'Clément Torchiat -  Front-end Developer & Webdesigner'
+    }
+  },
+  {
+    path: '/eng/portfolio',
+    name: 'Portfolioeng',
+    component: Portfolioeng,
+    meta: {
+      title: 'Clément Torchiat -  Portfolio'
+    }
+  },
+  {
+    path: '/eng/services',
+    name: 'Serviceseng',
+    component: Serviceseng,
+    meta: {
+      title: 'Clément Torchiat -  Services'
+    }
+  },
+  {
+    path: '/eng/about',
+    name: 'About',
+    component: About,
+    meta: {
+      title: 'Clément Torchiat -  About'
+    }
+  },
+  {
+    path: '/eng/testimonials',
+    name: 'Testimonials',
+    component: Testimonials,
+    meta: {
+      title: 'Clément Torchiat -  Testimonials'
+    }
+  },
+  {
+    path: '/eng/get-in-touch',
+    name: 'Get-in-touch',
+    component: GetInTouch,
+    meta: {
+      title: 'Clément Torchiat -  Get in touch'
+    }
+  },
+  {
+    path: '/eng/portfolio/:id',
+    name: 'Project',
+    component: Project,
+    meta: {
+      title: 'Clément Torchiat -  Portfolio'
     }
   },
 ]

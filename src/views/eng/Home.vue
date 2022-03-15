@@ -2,12 +2,12 @@
   <main>
     <div id="accueil-1">
       <div class="gauche">
-        <p>- Étudiant</p>
-        <h1>Développeur de sites uniques pour votre entreprise</h1>
-        <p>Transformez votre entreprise en une expérience utilisateur impressionnante et un design unique. Utilisez mes compétences pour y parvenir.</p>
+        <p>- Student</p>
+        <h1>Developer of unique websites for your brand</h1>
+        <p>Transform your business into an amazing user experience and a unique design. Use my skills to achieve this.</p>
         <div class="boutons-accueil-1">
-          <router-link to="contact">Entrons en contact</router-link>
-          <router-link to="portfolio">Voir mon travail</router-link>
+          <router-link to="/eng/get-in-touch">Get in touch</router-link>
+          <router-link to="/eng/portfolio">See my work</router-link>
         </div>
       </div>
       <div class="droite">
@@ -25,68 +25,68 @@
       </div>
     </div>
     <div id="accueil-2">
-      <h2>Des solutions à tous vos problèmes</h2>
-      <p>Je réalise divers travaux qui s'adaptent à votre projet.</p>
+      <h2>Solutions to all your problems</h2>
+      <p>I carry out various works that adapt to your project.</p>
       <div class="icones-accueil-2">
         <div class="services-accueil-2">
           <img src="@/assets/images/icones/icone_identite_visuelle.svg" alt="Identité Visuelle">
-          <h3>Identité visuelle</h3>
-          <p>Création de votre logo et de votre harmonie colorée. La cohérence de l'identité visuelle garantie la cohérence de votre image.</p>
-          <router-link to="/services">Découvrir</router-link>
+          <h3>Visual identity</h3>
+          <p>Creation of your logo and of your colored harmony.  The consistency of the visual identity guarantees the consistency of your image.</p>
+          <router-link to="/eng/services">See more</router-link>
         </div>
         <div class="services-accueil-2">
           <img src="@/assets/images/icones/icone_maquettage_graphique.svg" alt="Maquettage Graphique">
-          <h3>Maquettage graphique</h3>
-          <p>Design de maquettes responsive avec une conception ergonomique et une navigation pratique qui vous correspondent.</p>
-          <router-link to="/services">Découvrir</router-link>
+          <h3>Mock-up</h3>
+          <p>Responsive mockup with an ergonomic design and convenient navigation that suits you.</p>
+          <router-link to="/eng/services">See more</router-link>
         </div>
         <div class="services-accueil-2">
           <img src="@/assets/images/icones/icone_integration.svg" alt="Intégration">
-          <h3>Intégration</h3>
-          <p>Intégration front-end de site vitrines et de landing pages en responsive. C'est une intégration HTML/CSS complète pour une flexibilité accrue.</p>
-          <router-link to="/services">Découvrir</router-link>
+          <h3>Integration</h3>
+          <p>Front-end integration of showcase sites and responsive landing pages. It's a full HTML/CSS integration for added flexibility.</p>
+          <router-link to="/eng/services">See more</router-link>
         </div>
       </div>
     </div>
     <div id="accueil-3">
-      <h2>Derniers travaux</h2>
-      <p>Mes derniers travaux et projets réalisés.</p>
+      <h2>Latest works</h2>
+      <p>My latest work and completed projects.</p>
       <div class="projets-accueil-3">
         <div class="derniers-projets-accueil-3" v-for="projet in liste_projets.slice(0,3)" :key="projet.id">
           <img class="image-projet-accueil-3" :src="projet.better_featured_image.source_url" alt="">
           <img class="fond-projet-accueil-3" src="@/assets/images/icones/projet_bord_noir.svg" alt="">
           <h4 class="titre-projet-accueil-3">{{projet.title.rendered}}</h4>
-          <router-link class="bouton-projet-accueil-3" :to="{ name:'Projet', params: {id : projet.id}}">Voir</router-link>
+          <router-link class="bouton-projet-accueil-3" :to="{ name:'Project', params: {id : projet.id}}">See</router-link>
         </div>
       </div>
-      <router-link to="/portfolio">Voir tous mes travaux</router-link>
+      <router-link to="/eng/portfolio">See all my work</router-link>
     </div>
     <div id="accueil-4">
-      <h2>Pourquoi travailler avec moi ?</h2>
-      <p>Une réponse efficace à vos projets.</p>
+      <h2>Why work with me ?</h2>
+      <p>An effective response to your projects.</p>
       <div class="promo-accueil-4">
         <div class="section-promo-accueil-4">
           <img src="@/assets/images/icones/icone_promo_moins_cher.svg" alt="Moins cher">
-          <h3>Moins cher</h3>
-          <p>Je suis la solution idéale pour les petites entreprises : j'adapte mon travail à votre budget et à votre objectif.</p>
+          <h3>Cheaper</h3>
+          <p>I am the ideal solution for small companies : I adapt my work to your budget and your objective.</p>
         </div>
         <div class="section-promo-accueil-4">
           <img src="@/assets/images/icones/icone_promo_echanges.svg" alt="Réactivité des échanges">
-          <h3>Réactivité des échanges</h3>
-          <p>Je suis à l'écoute de toutes vos demandes et je m'adapte à vos besoins changeants ou non dans les plus brefs délais.</p>
+          <h3>Responsiveness of exchanges</h3>
+          <p>I am attentive to all your requests and I adapt to your changing needs as soon as possible.</p>
         </div>
         <div class="section-promo-accueil-4">
           <img src="@/assets/images/icones/icone_promo_unique.svg" alt="Unique et qualitatif">
-          <h3>Unique et qualitatif</h3>
-          <p>Cherchons ensemble une identité graphique et une architecture qui vous correspond et qui correspond aux demandes actuelles du marché.</p>
+          <h3>Unique and qualitative</h3>
+          <p>Let's look together for a graphic identity and an architecture that suits you and meets current market demands.</p>
         </div>
         <div class="section-promo-accueil-4">
           <img src="@/assets/images/icones/icone_promo_intermediaires.svg" alt="Pas d'intermédiaires">
-          <h3>Pas d'intermédiaires</h3>
-          <p>Vous traitez avec moi et moi seul tout le long du projet : je suis à l'écoute de toutes vos demandes et je répond aussi spontanément que possible.</p>
+          <h3>No intermediaries </h3>
+          <p>You deal with me and me alone throughout the project: I listen to all your requests and respond as spontaneously as possible.</p>
         </div>
       </div>
-      <router-link to="/contact">Entrons en contact</router-link>
+      <router-link to="/eng/contact">Get in touch</router-link>
     </div>
   </main>
 </template>
@@ -96,7 +96,7 @@ import axios from "axios";
 import param from "@/param/param";
 
 export default {
-  name: 'Accueil',
+  name: 'Home',
   components: {},
   data() {
     return {
@@ -476,7 +476,6 @@ main {
           color: black;
           text-decoration: none;
           &:after {
-            content: url("../assets/images/icones/icone_fleche_decouvrir.svg");
             margin-left: 8px;
             @media screen and (min-width: 800px) {
               margin-left: 11px;
