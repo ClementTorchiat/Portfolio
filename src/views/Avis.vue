@@ -96,11 +96,11 @@ main {
         margin: 27px 0 17px 27px;
         @media screen and (min-width: 800px) {
           width: 157px;
-          margin: 41px 27px 41px 16px;
+          margin: 41px 27px auto 16px;
         }
         @media screen and (min-width: 1600px) {
           width: 224px;
-          margin: 48px 30px;
+          margin: 48px 30px auto 30px;
         }
       }
       .contenu-textuel-avis {
