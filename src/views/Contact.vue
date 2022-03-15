@@ -7,7 +7,7 @@
         <input v-model="Mail" class="contact-email" type="email" maxlength="256" name="email" data-name="Email" placeholder="Votre email" required>
         <input v-model="Budget" class="contact-budget" type="text" maxlength="256" name="budget" data-name="Budget" placeholder="Votre budget" required>
         <textarea v-model="Message" class="contact-description" name="description" data-name="Description" placeholder="Parlez moi de votre projet (ou insérez un lien vers une maquette déjà existante)"></textarea>
-        <button class="contact-bouton" type="submit" value="Envoyer" data-wait="Veuillez patienter..."></button>
+        <button class="contact-bouton" type="submit" value="Envoyer" data-wait="Veuillez patienter...">Envoyer</button>
       </form>
     </div>
   </main>
